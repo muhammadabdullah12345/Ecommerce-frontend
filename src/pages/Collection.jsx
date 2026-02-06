@@ -46,7 +46,7 @@ function Collection() {
   }
   useEffect(() => {
     applyFilters();
-  }, [categories, subCategories, search, showSearch]);
+  }, [categories, subCategories, search, showSearch, products]);
 
   function sortProducts() {
     switch (sortBy) {
